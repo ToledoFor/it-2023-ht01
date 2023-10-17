@@ -1,0 +1,47 @@
+/* * {
+    border: 1px solid red !important;
+} */
+
+body {
+    background-color: #cfcece;
+
+    /*overflow-y: hidden;*/
+    /*margin: 0;*/
+}
+
+
+.wrapper {
+    max-width: 800px;
+    /* vh - height, vw - width */
+    min-height: calc(100vh - 16px);
+    /* min-height: 100vh; */
+
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.text-heading {
+    color: rgb(224, 183, 187);
+}
+
+.columns {
+    display: flex;
+    gap: 40px;
+}
+
+.column {
+    width: 50%;
+}
+
+.column img {
+    max-width: 100%;
+}
